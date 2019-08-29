@@ -10,5 +10,14 @@ package examenno2;
  * @author ESTUDIANTE-IS
  */
 public class Departamentos {
+    Departamento[] dp=new Departamento[20];
     
+    public void Agregar(Departamento d){
+        for(int i=0;i<dp.length;i++){
+            if(dp[i]==null){
+                dp[i]=d;
+            }
+        }
+    }
 }
+

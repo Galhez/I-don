@@ -13,6 +13,11 @@ public class Departamento {
     private int IdDept;//Identificacion del Departamento
     private String NmDept;//Nombre del Departamento
 
+    public Departamento(int IdDept, String NmDept) {
+        this.IdDept = IdDept;
+        this.NmDept = NmDept;
+    }
+
     public int getIdDept() {
         return IdDept;
     }

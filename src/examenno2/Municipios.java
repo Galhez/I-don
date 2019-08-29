@@ -11,4 +11,8 @@ package examenno2;
  */
 public class Municipios {
     
+    Municipio[] mn=new Municipio[100];
+    
+    
+    
 }

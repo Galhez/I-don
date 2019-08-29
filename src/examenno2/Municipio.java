@@ -13,6 +13,11 @@ public class Municipio {
     private int IdMun;//Identificador del Municipio 
     private String NmMun;//Nombre de el Municipio
 
+    public Municipio(int IdMun, String NmMun) {
+        this.IdMun = IdMun;
+        this.NmMun = NmMun;
+    }
+
     public int getIdMun() {
         return IdMun;
     }
